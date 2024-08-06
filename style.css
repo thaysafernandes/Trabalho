@@ -1,0 +1,55 @@
+:root {
+    --cor-fundo: #010508;
+    --cor-principal: #161616 ;
+    --cor-secundaria: #c59b9b;
+    --cor-destaque: #8b3232;
+    --cor-texto: #D7F9FF;
+  }
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+.caixa-principal{
+    background-color: var(--cor-principal);
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+  }
+
+h1{
+    color: var(--cor-destaque);
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+}
+
+   button {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-destaque);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+    margin: 10px;
+    font-size: 20px;
+    font-family: fantasy;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: var(--cor-destaque);
+    color: var(--cor-secundaria);
+}
+
+.caixa-perguntas{
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+}
